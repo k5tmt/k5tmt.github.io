@@ -10,23 +10,48 @@
 <channel>
 	<title>K5TMT</title>
 	<atom:link href="https://k5tmt.com/feed/" rel="self" type="application/rss+xml" />
-	<link>https://k5tmt.com/</link>
+	<link>http://k5tmt.com/</link>
 	<description>Just another dumb blog...</description>
-	<lastBuildDate>Mon, 27 May 2019 01:35:17 +0000</lastBuildDate>
+	<lastBuildDate>Sat, 07 Sep 2019 18:10:54 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.2.1</generator>
+	<generator>https://wordpress.org/?v=5.2.3</generator>
 	<item>
+		<title>WSJT-X Settings for the IC-7300</title>
+		<link>https://k5tmt.com/2019/09/07/wsjt-x-settings-for-the-ic-7300/</link>
+				<pubDate>Sat, 07 Sep 2019 18:10:54 +0000</pubDate>
+		<dc:creator><![CDATA[Matt]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://k5tmt.com/?p=74</guid>
+				<description><![CDATA[These are my settings for running FT8 on Windows. Some of them are personal preference, but either way, it should help you get up and running. IC-7300 RF POWER: 35% MODE: USB-D FILTER: FIL1 (3.6k) P.AMP/ATT: (leave default) AGC: FAST NB: OFF NR: OFF USB MOD Level: 40% DATA OFF MOD: MIC/ACC DATA MOD: USB [&#8230;]]]></description>
+								<content:encoded><![CDATA[
+<p>These are my settings for running FT8 on Windows.  Some of them are personal preference, but either way, it should help you get up and running.</p>
+
+
+
+<p><strong>IC-7300<br></strong> RF POWER: 35%<br> MODE: USB-D<br> FILTER: FIL1 (3.6k)<br> P.AMP/ATT: (leave default)<br> AGC: FAST<br> NB: OFF<br> NR: OFF<br> USB MOD Level: 40%<br> DATA OFF MOD: MIC/ACC<br> DATA MOD: USB<br> USB Serial Function: CI-V<br> CI-V Baud Rate: Auto<br> CI-V Address: 94h<br> CI-V Transceive: ON<br> CI-V USB Port: Unlink from [REMOTE]<br> CI-V USB Baud Rate: 115200<br> CI-V USB Echo Back: ON<br> PTT Start: ON (except on 6m where tuner can’t be used with my MFJ-929)</p>
+
+
+
+<p><strong>WSJT-X<br></strong> Baud Rate: 115200<br> Data Bits: 8<br> Stop Bits: 2<br> Handshake: None<br> PTT Method: CAT<br> Mode: Data/Pkt<br> Split Operation: Fake It</p>
+
+
+
+<p><strong>Windows</strong><br>Set Windows audio playback device to 100%, disable all enhancements, and set default format to 1 channel, 48000 Hz.<br>Set Windows audio recording device so that the green RX bar in WSJT-X is around 30% on a quiet band/frequency.  Set default format to 1 channel, 48000 Hz.<br>Label the audio devices as “IC-7300”.<br>When transmitting, adjust Pwr slider in WSJT-X until it begins to tickle the ALC meter.  Forward power should now be around 28W.</p>
+]]></content:encoded>
+										</item>
+		<item>
 		<title>Welcome!</title>
 		<link>https://k5tmt.com/2019/05/21/welcome/</link>
 				<pubDate>Tue, 21 May 2019 16:41:15 +0000</pubDate>
 		<dc:creator><![CDATA[Matt]]></dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
 
-		<guid isPermaLink="false">https://k5tmt.com/?p=27</guid>
+		<guid isPermaLink="false">https://k5tmt.com/staging/wordpress/?p=27</guid>
 				<description><![CDATA[Thanks for visiting my site. Take a look around stay tuned for future content!]]></description>
 								<content:encoded><![CDATA[
 <p>Thanks for visiting my site.  Take a look around stay tuned for future content!</p>
